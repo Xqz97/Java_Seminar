@@ -5,16 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d683208e-020c-4fd9-ae95-9a2e0710917c" name="Changes" comment="Семинар 6 и домашнее задание к нему.">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson1OOP/Cheese.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson1OOP/Chocolate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson1OOP/Cofe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson1OOP/CofeMashine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson1OOP/CofeWithIceCream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson1OOP/HomeWork.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson1OOP/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson1OOP/Seminar1OOP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson1OOP/VendingMashine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson2OOP/HomeWork.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson2OOP/Seminar2OOP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson2OOP/animal/Bear.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson2OOP/animal/Duck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson2OOP/animal/Girafee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson2OOP/animal/base/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson2OOP/animal/base/Birds.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson2OOP/animal/base/Herbivares.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson2OOP/animal/base/Predator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson2OOP/aquarium/Aquarium.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson2OOP/aquarium/FishSwimmingSpeed.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson2OOP/aquarium/Location.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson2OOP/fish/Omul.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson2OOP/fish/Salmon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson2OOP/fish/Shark.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson2OOP/fish/base/EvilFish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson2OOP/fish/base/Fish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson2OOP/fish/base/GoodFish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson2OOP/zoo/Radio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson2OOP/zoo/Soundable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson2OOP/zoo/SpeedFlyOfAnimal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson2OOP/zoo/SpeedMoveOfAnimal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Lesson2OOP/zoo/Zoo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,6 +40,7 @@
       <list>
         <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -44,22 +58,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;Lesson7&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Java_lesson/untitled&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Java_lesson/untitled/src/main/java/org/example/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editing.templates&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "Lesson8",
+    "last_opened_file_path": "C:/Java_lesson/untitled",
+    "onboarding.tips.debug.path": "C:/Java_lesson/untitled/src/main/java/org/example/Main.java",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "editing.templates"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -68,7 +82,7 @@
       <recent name="Lesson1OOP" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HomeWork">
+  <component name="RunManager" selected="Application.Lesson2OOP.HomeWork">
     <configuration name="HomeWork" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lesson1OOP.HomeWork" />
       <module name="untitled" />
@@ -82,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lesson5.HomeWork" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson5.HomeWork" />
+    <configuration name="Lesson2OOP.HomeWork" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson2OOP.HomeWork" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lesson5.*" />
+          <option name="PATTERN" value="Lesson2OOP.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,12 +135,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Seminar6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson6.Seminar6" />
+    <configuration name="Seminar2OOP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson2OOP.seminar.animal.Seminar2OOP" />
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lesson6.*" />
+          <option name="PATTERN" value="Lesson2OOP.animal.base.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Lesson2OOP.HomeWork" />
+        <item itemvalue="Application.Seminar2OOP" />
         <item itemvalue="Application.HomeWork" />
         <item itemvalue="Application.Seminar1OOP" />
         <item itemvalue="Application.Lesson6.HomeWork" />
-        <item itemvalue="Application.Seminar6" />
-        <item itemvalue="Application.Lesson5.HomeWork" />
       </list>
     </recent_temporary>
   </component>
